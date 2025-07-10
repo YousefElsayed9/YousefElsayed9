@@ -325,4 +325,118 @@ form button {
   padding-left: 25px;
 }
 
+.why-this-is-awesome{
+  background-color: rgba(211, 211, 211, 0.459);
+  padding: 4% 0;
+}
+.why{
+  text-align: center;
+}
 
+.why h3{
+  margin-bottom: 3%;
+  font-size: 40PX;
+  font-weight: 200;
+}
+
+.why p{
+  color: #666;
+  margin-bottom: 3%;
+  font-size: 13PX;
+}
+.content5{
+  margin-left: 7%;
+}
+.why-this{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.why-this i{
+  width: 60px;
+  height: 60px;
+  border: #f26b38 solid 2px;
+  border-radius: 50%;
+  padding-bottom: 5px;
+  vertical-align: top;
+  font-size: 20px;
+  margin-bottom: 8%;
+  padding-top: 17px;
+  color: #f26b38;
+
+}
+.why-this h3{
+  margin-bottom: 4%;
+
+}
+.why-this p{
+  margin-bottom: 15%;
+  padding: 0 10px;
+}
+
+
+.pricing-container {
+  text-align: center;
+
+}
+
+.plan {
+  display: inline-block;
+  width: 280px;
+  background: white;
+  margin: 10px 15px;
+  vertical-align: top;
+  border: 1px solid #ccc;
+  padding: 0;
+  position: relative;
+}
+
+.plan h3 {
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.plan .price {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 15px 0 5px;
+}
+
+.plan .free,
+.plan .monthly {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan ul li {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.plan .tag{
+  background-color: #f97316;
+  padding: 10px;
+}
+
+
+.pricing-options{
+  margin: 5% 0;
+}
+
+.contact-input ,.contact-input2{
+  display: inline-block;
+  width:  30%;
+}
