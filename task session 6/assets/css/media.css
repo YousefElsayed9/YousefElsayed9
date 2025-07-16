@@ -1,0 +1,64 @@
+@media (max-width: 600px){
+    .nav-bar ul{
+        display: none;
+    }
+    .nav-bar button{
+        display: none;
+    }
+
+    .dog{
+        width: 100%;
+        background-size: 200%;
+        height: 609px;
+    }
+    .dog-content{
+        margin-top: 3%;
+        width: 25%;
+        padding: 2%;
+        
+    }
+
+    .dog-content h2{
+        font-size: 30px;
+
+    }
+
+    .dog-content p{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .dog-content button{
+        margin-top: 10%;
+    }
+
+    .cards{
+        display: block;
+    }
+    .title{
+        width: 34%;
+    }
+
+    .shop-content{
+        width: 34%;
+        margin: 0;
+    }
+    .card{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    .card-3{
+        display: none;
+    }
+
+    .top input{
+        display: none;
+    }
+
+    .shop-cat{
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    
+}

@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Formative Trial;
+}
+
+
+.container{
+   width: 1440px;
+   margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*global*/
+
+.ds-flex{
+    display: flex;
+}
+
+.just-between{
+    justify-content: space-between;
+}
+
+.border-none{
+    border: none;
+}
+
+/*private*/
+.dog{
+   background-image: url(../img/dog\ .png);
+   background-repeat: no-repeat;
+   background-size: 130%;
+   background-position: top left;
+   height: 883px;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.nav-bar ul {
+    justify-content: left;
+    width: 80%;
+}
+.nav-bar ul li{
+    margin-left: 5%;
+}
+.nav-bar ul li a{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    transition: 5ms;
+}
+
+.nav-bar ul li a:hover{
+    border-bottom: solid white 2px;
+}
+
+
+
+.nav-bar h1{
+    color: white;
+    font-size: 20px;
+}
+.nav-bar h1 i {
+    padding-right: 7px;
+}
+
+.nav-bar button{
+    background-color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: 20ms;
+}
+
+.nav-bar button:hover{
+    padding: 8px 15px;
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 50px;
+}
+
+.dog-content{
+    width: 630px;
+    margin-top: 241px;
+    color: white;
+}
+
+.dog-content h2{
+    font-size: 60px;
+    line-height: 100%;
+    margin-bottom: 10px;
+
+}
+
+.dog-content p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dog-content button{
+    padding: 16px 28px;
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 50px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: 10ms;
+}
+.dog-content button i{
+    margin-left: 5px;
+}
+
+.dog-content button:hover{
+    background-color: white;
+    color: black;
+}
+
+.shop{
+    margin-top: 2%;
+}
+
+.title{
+    border-bottom: solid 1px lightgray;
+    padding: 1% 0;
+}
+
+.title h2{
+    font-size: 35px;
+}
+.title h2 i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.shop-content{
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    border: solid 1px lightgray;
+    padding: 2%;
+}
+
+.top h2{
+    font-size: 35px;
+}
+
+.top input{
+    padding: 13px 11px;
+    border-radius: 50px;
+    background-color: #F4F4F4;
+}
+
+.shop-cat{
+    text-align: center;
+}
+
+.shop-cat button{
+    margin-left: 2%;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.shop-cat button a{
+    color: #000000B2;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.shop-cat button:hover{
+    padding: 15px 25px;
+    background: linear-gradient(#101828 , #233250);
+    border-radius: 8px;
+    
+}
+
+.shop-cat  a:hover{
+    color: white;
+}
+
+
+.card {
+    width: 31%;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #1018288A;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    text-align: center;
+    transition: 2s ease;
+    border-radius: 10px;
+}
+
+.card:hover .overlay{
+    height: 100%;
+}
+
+.overlay h3{
+    font-size: 34px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.overlay p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+.overlay button {
+    padding: 15px 25px;
+    border: 0;
+    background: linear-gradient(#101828 ,#233250);
+    color: white;
+    border-radius: 8px;
+}
+
+
+
