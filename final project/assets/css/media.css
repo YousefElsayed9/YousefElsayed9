@@ -1,0 +1,32 @@
+@media (max-width: 767.98px) {
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .b-a ,.b-n {
+    margin-top: 30px;
+    width: 40%;
+    padding: 16px;
+   
+
+  }
+}
+
+@media (max-width: 768px) {
+  .floating-box {
+    position: static;
+    transform: none;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+
